@@ -1,0 +1,2 @@
+module GuideQuestionsHelper
+end
