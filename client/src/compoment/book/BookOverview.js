@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react'
 import '../../css/Book.css'
 import { Grid, Typography, Button, Fab, Tooltip } from '@mui/material'
 import BookmarkIcon from '@mui/icons-material/Bookmark'
