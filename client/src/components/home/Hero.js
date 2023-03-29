@@ -15,13 +15,14 @@ const Hero = ({ user }) => {
       sx={{ padding: 0 }}>
       <Paper elevation={0} className='b-radius-sm'>
         <Grid item xs={12} alignItems='center'>
-          <Typography component='h1' variant='h1' align='left'>
-            Read Together. <br />
+          <Typography component='h2' variant='h2' align='left'>
+            Soma Nami Books. <br />
             Stay Connected.
           </Typography>
-          <Typography component='p' variant='subtitle1' align='left'>
-            Explore a new world with your friends and family.
+          <Typography component='p' variant='h5' align='justify'>
+            Books That Inspire.
           </Typography>
+          
           <div className='padding-top'>
             <Button
               onClick={() =>
