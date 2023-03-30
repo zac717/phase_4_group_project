@@ -1,4 +1,4 @@
-class GoalsController < ApplicationController
+class Api::GoalsController < ApplicationController
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
   before_action :set_goal, only: [:destroy, :show]
 

@@ -1,4 +1,4 @@
-class GuideQuestionsController < ApplicationController
+class Api::GuideQuestionsController < ApplicationController
 
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
   before_action :set_question, only: [:destroy, :show]
