@@ -1,4 +1,4 @@
-class BooksController < ApplicationController
+class Api::BooksController < ApplicationController
 
   rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
     before_action :set_book, only: [:show, :update, :destroy]
