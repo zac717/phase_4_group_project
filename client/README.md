@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Page Turners | A Book Club App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app lets you create book clubs with your friends where you can track goals, create discussion questions, and comment on the discussion questions.
 
-## Available Scripts
+## Technologies Used In This App
 
-In the project directory, you can run:
+- JavaScript
+- React
+- Mui
+- React Router
+- Goodreads API
 
-### `npm start`
+## How To Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install and run:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```sh
+npm install
+# start up your server
+# start up react
+npm start
 
-### `npm test`
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Setup to use port 4000 and use an API on port 3000
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- customize theme with Mui
+- ability to add users and login
+- persistent login using cookies
+- ability to update user information and icon color
+- ability to delete your own profile
+- responsive design
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Book Clubs
 
-### `npm run eject`
+- Create a book club
+- Edit a book clubs info and users if you are the admin
+- Delete a book club
+- View all book clubs you are a part of
+- View book club archived books, wishlist books, and currently reading book
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Books
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Search for books using the Goodreads API
+- Search popular lists of books using the Goodreads API
+- View books images, author, description, and genres
+- Select a book and add it to a book clubs wishlist
+- Move the book to wishlist, archived books, or currently reading
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Currently Reading
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Search for books using the Goodreads API
+- Comment on guide questions if you are a part of the book club
+- If you are an admin you can:
+  - Edit the current books progress
+  - Move book to completed and archived books
+  - Create, edit, and delete goals
+  - Create, edit, and delete guide questions
+  - Create, edit, and delete all comments left
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ## Authors
+  [Jamil Saleh, Issac Atuti, Joseph Wambua]
