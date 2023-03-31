@@ -46,6 +46,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_29_045752) do
   end
 
   create_table "bookclubs", force: :cascade do |t|
+    t.boolean "Admin"
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
