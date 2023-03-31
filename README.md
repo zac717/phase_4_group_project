@@ -71,8 +71,6 @@ This endpoint returns a single user, identified by the id parameter in the URL. 
 - location: User's location
 - profile_colour: User's preferred colour
 
-The response body is an object representing the user, with those properties.
-
 ### PUT /users/:id
 
 This endpoint updates an existing user, identified by the id parameter in the URL. The request body should be a JSON object with the following properties:
@@ -110,13 +108,9 @@ This endpoint retrieves all book clubs. The response body is an array of book cl
 - id: The unique identifier for the book club.
 - name: The name of the book club.
 
-The response body is an array representing the details, with those properties.
-
 ### GET /bookclubs/:id
 
 This endpoint retrieves a single book club, identified by the id parameter in the URL. The response body is an object representing the book club, with the same properties as the objects returned by the /bookclubs endpoint.
-
-The response body is an object representing the details, with those properties.
 
 ### PUT /bookclubs/:id
 
@@ -164,8 +158,6 @@ This endpoint retrieves a single goal, identified by the id parameter in the URL
 - notes: Writes that come one posts.
 - meetingURL: Meeting link for a discussion.
 
-The response body is an object representing the details of the, with those properties plus a unique identifier.
-
 ### PUT /goals/:id
 
 This endpoint updates an existing goal, identified by the id parameter in the URL. The request body should be a JSON object with the following properties:
@@ -190,8 +182,6 @@ This endpoint retrieves a single guide question, identified by the id parameter 
 - id: The unique identifier for the guide question.
 - question: The text of the guide question.
 - chapter: Chapter that is up for a discussion.
-
-The response body is an object representing the details of the, with those properties plus a unique identifier.
 
 ### POST /guide-questions
 
