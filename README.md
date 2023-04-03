@@ -1,6 +1,7 @@
 # Page Turners API
 
-This is a simple web API for creating and managing book clubs. The API allows users to create, read, update, and delete book clubs. The app is built using Ruby on Rails and Sqlite3, and is designed to be easily integrated into its frontend counterpart. Its main purpose is to provide a centralized tool for managing book clubs, making it easier for administrators to organize events and communicate with other people about books.
+This is a simple web API for creating and managing book clubs. The API allows users to create, read, update, and delete book clubs. The app is built using Ruby on Rails and Sqlite3, and is designed to be easily integrated into its frontend counterpart. Its main purpose is to provide a centralized tool for managing book clubs, making it easier for administrators to organize events and communicate with other people about books.[deployed api link](https://soma-soma.onrender.com)
+
 
 ## Getting Started
 
@@ -14,17 +15,17 @@ This is a simple web API for creating and managing book clubs. The API allows us
 
 - Then, install the required dependencies using Bundler:
 
-        bundle install 
+        bundle install
 
 - Tun the migrations
 
-        rails db:migrate 
+        rails db:migrate
 
 ## Usage
 
 - Start the server with
 
-        rails server 
+        rails server
 
 ## Technologies used
 

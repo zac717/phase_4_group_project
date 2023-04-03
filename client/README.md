@@ -1,6 +1,6 @@
 # Page Turners | A Book Club App
 
-This app lets you create book clubs with your friends where you can track goals, create discussion questions, and comment on the discussion questions.
+This app lets you create book clubs with your friends where you can track goals, create discussion questions, and comment on the discussion questions. [The link to our deployed app](https://soma-soma.onrender.com)
 
 ## Technologies Used In This App
 
